@@ -6,5 +6,5 @@ N = 50
 P = 0.3
 
 er = nx.gnp_random_graph(N, P)
-nx.draw(er, with_labels=True)
-print(nx.adjacency_matrix(er))
+nx.draw_networkx(er, with_labels=True, node_size=100, width=0.2)
+plt.show()
