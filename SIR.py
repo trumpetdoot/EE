@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 # Total population, N.
 N = 15109416
 # Initial number of infected and recovered individuals, I0 and R0.
-I0, R0 = 1, 0
+I0, R0 = 21846, 1289514
 # Everyone else, S0, is susceptible to infection initially.
 S0 = N - I0 - R0
 # Contact rate, beta, and mean recovery rate, gamma, (in 1/days).
-beta, gamma = 0.1936, 0.0714
+beta, gamma = 0.19357, 0.0714
 # A grid of time points (in days)
 t = np.linspace(0, 365, 365)
 
